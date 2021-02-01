@@ -303,7 +303,6 @@ export class RibbonManager {
         // @ts-ignore
         new Response(e.data).arrayBuffer().then(ab => {
           const msg = this.SmartDecode(new Uint8Array(ab));
-          console.log(JSON.stringify(msg).gray);
 
           if (msg.command === 'kick') {
             this.mayReconnect = false;

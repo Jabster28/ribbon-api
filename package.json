@@ -1,7 +1,7 @@
 {
   "name": "ribbon-api",
   "description": "An unofficial API for the Ribbon API, made by osk and currently used by TETR.IO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",

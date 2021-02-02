@@ -413,7 +413,7 @@ export class RibbonManager {
         this.lastReceivedId = trackBackMessage.id;
       }
     }
-    if (this.incomingQueue.length > 600) {
+    if (this.incomingQueue.length > 5200) {
       console.error(
         `Ribbon ${this.id} unrecoverable: ${this.incomingQueue.length} packets out of order`
       );
@@ -431,7 +431,7 @@ export class RibbonManager {
   send(command: string, data: any, batched = false) {
     const packet = {id: ++this.lastSentId, command, data};
     this.lastSent.push(packet);
-    if (this.lastSent.length > 200) {
+    if (this.lastSent.length > 2000) {
       this.lastSent.shift();
     }
 

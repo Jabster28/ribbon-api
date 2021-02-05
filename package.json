@@ -1,5 +1,5 @@
 {
-  "name": "ribbon-api",
+  "name": "@jabster28/ribbon-api",
   "description": "An unofficial API for the Ribbon API, made by osk and currently used by TETR.IO",
   "version": "1.0.1",
   "main": "dist/index.js",
@@ -34,9 +34,9 @@
     "node-fetch": "^2.6.1",
     "ws": "^7.4.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jabster28/ribbon-api.git"
+  "repository": "git://github.com/jabster28/ribbon-api.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "tetrio",

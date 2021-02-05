@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.1](https://github.com/jabster28/ribbon-api/compare/v1.1.0...v1.1.1) (2021-02-05)
 
+### [1.1.1](https://github.com/jabster28/ribbon-api/compare/v1.1.0...v1.1.1) (2021-02-05)
+
 ## 1.1.0 (2021-02-05)
 
 

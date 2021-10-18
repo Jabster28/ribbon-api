@@ -26,13 +26,13 @@
   "dependencies": {
     "@types/msgpack-lite": "^0.1.7",
     "@types/node-fetch": "^2.5.7",
-    "@types/ws": "^7.4.0",
+    "@types/ws": "^8.0.0",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "isomorphic-ws": "^4.0.1",
     "msgpack-lite": "^0.1.26",
     "node-fetch": "^2.6.1",
-    "ws": "^7.4.1"
+    "ws": "^8.0.0"
   },
   "repository": "git://github.com/jabster28/ribbon-api.git",
   "keywords": [
